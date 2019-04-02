@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	background-image: url("images/abstractbackground.jpg");
+	color: #ffffff;
+	line-height: 1.5;
+}
+
+button {
+	font-family: 'Rubik', sans-serif;
+}
+
+#container {
+	background-color: rgba(0, 0, 0, 0.85);
+	border-radius: 25px;
+	padding: 2%;
+	width: 85%;
+	margin: auto;
+	max-width: 1500px;
+}
+
+section {
+	margin-top: 50px;
+}
+
+section p {
+	padding-top: 10px;
+}
+
+a {
+	color: #19CCEA;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #38A5BC;
+	text-decoration: underline;
+}
+
+h2, h3 {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 1%;
+}
+
+ol {
+	margin-left: 2%;
+}
+
+ul li, ol li {
+	padding-top: 5px;
+}
+
+code {
+	background-color: #D3D3D3;
+	color: #000000;
+	padding: 3px;
+}
+
+button {
+    background-color: #2165B0;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.colorchange {
+	background-color: yellow;
+}
+
+img {
+	width: 100%;
+	max-width: 500px;
+}
